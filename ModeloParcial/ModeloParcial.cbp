@@ -33,6 +33,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="ModeloParcial.cpp" />
+		<Unit filename="ModeloParcial.h" />
 		<Unit filename="estudiante.cpp" />
 		<Unit filename="estudiante.h" />
 		<Unit filename="examen.cpp" />
@@ -40,6 +42,10 @@
 		<Unit filename="fecha.cpp" />
 		<Unit filename="fecha.h" />
 		<Unit filename="main.cpp" />
-		<Extensions />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
 	</Project>
 </CodeBlocks_project_file>
