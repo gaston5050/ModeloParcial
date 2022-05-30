@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1653599131 source:/home/angel/UTN/Github/laboratorio2-20221c/Clase 11/ModeloParcial/estudiante.cpp
+	<cstring>
+	<iostream>
+	"estudiante.h"
+
+1653599228 /home/angel/UTN/Github/laboratorio2-20221c/Clase 11/ModeloParcial/estudiante.h
+	<string>
+	"fecha.h"
+
+1652994026 /home/angel/UTN/Github/laboratorio2-20221c/Clase 11/ModeloParcial/fecha.h
+	<string>
+
+1653599352 source:/home/angel/UTN/Github/laboratorio2-20221c/Clase 11/ModeloParcial/examen.cpp
+	<iostream>
+	<cstring>
+	<cstdio>
+	"examen.h"
+
+1653599245 /home/angel/UTN/Github/laboratorio2-20221c/Clase 11/ModeloParcial/examen.h
+	<string>
+	"fecha.h"
+
+1652994026 source:/home/angel/UTN/Github/laboratorio2-20221c/Clase 11/ModeloParcial/fecha.cpp
+	"fecha.h"
+	<ctime>
+
+1653599970 source:/home/angel/UTN/Github/laboratorio2-20221c/Clase 11/ModeloParcial/main.cpp
+	<iostream>
+	<cstdio>
+	"estudiante.h"
+	"examen.h"
+
+1653599131 source:c:\users\gastona\downloads\modeloparcial\modeloparcial\estudiante.cpp
+	<cstring>
+	<iostream>
+	"estudiante.h"
+
+1653599228 c:\users\gastona\downloads\modeloparcial\modeloparcial\estudiante.h
+	<string>
+	"fecha.h"
+
+1652994026 c:\users\gastona\downloads\modeloparcial\modeloparcial\fecha.h
+	<string>
+
+1653918780 source:c:\users\gastona\downloads\modeloparcial\modeloparcial\examen.cpp
+	<iostream>
+	<cstring>
+	<cstdio>
+	"examen.h"
+
+1653918214 c:\users\gastona\downloads\modeloparcial\modeloparcial\examen.h
+	<string>
+	"fecha.h"
+	<sstream>
+
+1652994026 source:c:\users\gastona\downloads\modeloparcial\modeloparcial\fecha.cpp
+	"fecha.h"
+	<ctime>
+
+1653913365 source:c:\users\gastona\downloads\modeloparcial\modeloparcial\main.cpp
+	<iostream>
+	<cstdio>
+	"estudiante.h"
+	"examen.h"
+
+1653913365 source:c:\users\gastona\downloads\modeloparcial\modeloparcial\modeloparcial.cpp
+	"ModeloParcial.h"
+
+1653912854 c:\users\gastona\downloads\modeloparcial\modeloparcial\modeloparcial.h
+
