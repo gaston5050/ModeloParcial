@@ -1,5 +1,6 @@
 #ifndef MODELOPARCIAL_H_INCLUDED
 #define MODELOPARCIAL_H_INCLUDED
+#include "estudiante.h"
 
 class ModeloParcial{
 
@@ -19,6 +20,7 @@ public:
 
 };
 
-
+bool examenesAprobados(int leg);
+std::string toStringModeloParcial(Estudiante reg);
 
 #endif // MODELOPARCIAL_H_INCLUDED
