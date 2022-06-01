@@ -58,21 +58,22 @@
 	"fecha.h"
 	<ctime>
 
-1654012636 source:c:\users\gastona\downloads\modeloparcial\modeloparcial\main.cpp
+1654087839 source:c:\users\gastona\downloads\modeloparcial\modeloparcial\main.cpp
 	<iostream>
 	<cstdio>
 	"estudiante.h"
 	"examen.h"
 	"ModeloParcial.h"
 
-1654021236 source:c:\users\gastona\downloads\modeloparcial\modeloparcial\modeloparcial.cpp
+1654092562 source:c:\users\gastona\downloads\modeloparcial\modeloparcial\modeloparcial.cpp
 	<iostream>
+	<iomanip>
 	<string>
 	"ModeloParcial.h"
 	"examen.h"
 	"estudiante.h"
 
-1654009607 c:\users\gastona\downloads\modeloparcial\modeloparcial\modeloparcial.h
+1654087013 c:\users\gastona\downloads\modeloparcial\modeloparcial\modeloparcial.h
 	"estudiante.h"
 
 1654041289 source:c:\users\anima\onedrive\documentos\modeloparcial\modeloparcial\estudiante.cpp

@@ -24,5 +24,5 @@ bool examenesAprobados(int leg);
 std::string toStringModeloParcial(Estudiante reg);
 int cantAprobadas(int leg);
 int cantDesaprobadas(int leg);
-
+void contadoraVecesRindio(int leg, int vec[]);
 #endif // MODELOPARCIAL_H_INCLUDED
