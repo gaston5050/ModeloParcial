@@ -72,16 +72,22 @@ void ModeloParcial::punto3() {
            std::cout << std::left;
        std::cout<< std::setw(10)<<"MATERIA ";
       std::cout<< std::setw(15)<<"CANTIDAD DE ALUMNOS QUE CURSARON MAS DE UNA VEZ"<<std::endl;
-int cont=0;
+
+
+      int cont =0;
 int materias=60;
         for(int i=0;i<materias;i++){
 
     if(vecMateriaRendida[i]!=0){
     std::cout<< std::setw(10)<<i+1;
     std::cout<< std::setw(5)<<vecMateriaRendida[i] <<std::endl;
+    cont ++;
     }
         }
-std::cout<<cont;
+         std::cout<< std::setw(10)<<"TOTAL ";
+      std::cout<< std::setw(15)<<cont<<std::endl;
+
+
  }
 
 
