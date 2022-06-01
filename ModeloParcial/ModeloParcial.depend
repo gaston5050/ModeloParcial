@@ -75,3 +75,48 @@
 1654009607 c:\users\gastona\downloads\modeloparcial\modeloparcial\modeloparcial.h
 	"estudiante.h"
 
+1654041289 source:c:\users\anima\onedrive\documentos\modeloparcial\modeloparcial\estudiante.cpp
+	<cstring>
+	<iostream>
+	"estudiante.h"
+
+1654041289 c:\users\anima\onedrive\documentos\modeloparcial\modeloparcial\estudiante.h
+	<string>
+	"fecha.h"
+
+1654041289 c:\users\anima\onedrive\documentos\modeloparcial\modeloparcial\fecha.h
+	<string>
+
+1654041289 source:c:\users\anima\onedrive\documentos\modeloparcial\modeloparcial\examen.cpp
+	<iostream>
+	<cstring>
+	<cstdio>
+	"examen.h"
+
+1654041289 c:\users\anima\onedrive\documentos\modeloparcial\modeloparcial\examen.h
+	<string>
+	"fecha.h"
+	<sstream>
+
+1654041289 source:c:\users\anima\onedrive\documentos\modeloparcial\modeloparcial\fecha.cpp
+	"fecha.h"
+	<ctime>
+
+1654046061 source:c:\users\anima\onedrive\documentos\modeloparcial\modeloparcial\main.cpp
+	<iostream>
+	<cstdio>
+	"estudiante.h"
+	"examen.h"
+	"ModeloParcial.h"
+
+1654045754 c:\users\anima\onedrive\documentos\modeloparcial\modeloparcial\modeloparcial.h
+	"estudiante.h"
+
+1654045986 source:c:\users\anima\onedrive\documentos\modeloparcial\modeloparcial\modeloparcial.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"ModeloParcial.h"
+	"examen.h"
+	"estudiante.h"
+

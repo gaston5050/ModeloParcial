@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 #include <string>
 #include "ModeloParcial.h"
 #include "examen.h"
@@ -25,8 +26,53 @@ void ModeloParcial::punto1(){
 
 
 }
-void punto2() {}
-void punto3() {}
+void ModeloParcial::punto2() {
+
+    Estudiante reg;
+    int pos=0;
+    while(reg.LeerDeDisco(pos++)){
+    if(pos==1){
+    std::cout << std::left;
+    std::cout<< std::setw(10)<<"LEGAJO ";
+    std::cout<< std::setw(15)<<"NOMBRES ";
+    std::cout<< std::setw(15)<<"APELLIDOS ";
+    std::cout<< std::setw(20)<<"CANT. APROBADAS";
+    std::cout<< std::setw(30)<<"CANT DESAPROBADAS ";
+    std::cout<<std::endl;
+    }
+    std::cout << std::left;
+    std::cout<< std::setw(10)<<reg.getLegajo();
+    std::cout<< std::setw(15)<<reg.getNombres();
+    std::cout<< std::setw(20)<<reg.getApellidos();
+    std::cout<< std::setw(30)<< cantAprobadas(reg.getLegajo());
+    std::cout<< std::setw(30)<<cantDesaprobadas(reg.getLegajo());
+    std::cout<<std::endl;
+
+
+}
+
+
+}
+void punto3() {
+
+
+    Estudiante reg;
+    int vecMateriaRendida[60]={};
+
+        int pos=0;
+
+        while( reg.LeerDeDisco(pos++)){
+
+            reg.legajo{}
+
+
+        }
+
+
+
+
+
+}
 
 ///FUNCION GLOBAL
 
@@ -58,5 +104,42 @@ std::string toStringModeloParcial(Estudiante aux){
     cadena = std::to_string(aux.getLegajo())+ ", "+aux.getApellidos() + "," + aux.getNombres();
 
     return cadena;
+
+}
+
+int cantAprobadas(int leg){
+
+    Examen reg;
+    int pos=0, contApro=0;
+    while(reg.LeerDeDisco(pos++)){
+
+
+        if(reg.getLegajo()==leg && reg.getNota()>=6){
+
+
+
+            contApro++;
+        }
+
+    }
+    return contApro;
+
+}
+int cantDesaprobadas(int leg){
+
+    Examen reg;
+    int pos=0, contDesapro=0;
+    while(reg.LeerDeDisco(pos++)){
+
+
+        if(reg.getLegajo()==leg && reg.getNota()<6){
+
+
+
+            contDesapro++;
+        }
+
+    }
+    return contDesapro;
 
 }

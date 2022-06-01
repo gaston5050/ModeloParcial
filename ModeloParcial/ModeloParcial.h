@@ -22,5 +22,7 @@ public:
 
 bool examenesAprobados(int leg);
 std::string toStringModeloParcial(Estudiante reg);
+int cantAprobadas(int leg);
+int cantDesaprobadas(int leg);
 
 #endif // MODELOPARCIAL_H_INCLUDED

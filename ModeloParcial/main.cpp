@@ -7,10 +7,16 @@ using namespace std;
 
 int main()
 {
+
+    //listar_examenes();
+
     ModeloParcial reg;
-    reg.punto1();
-   //listar_estudiantes();
     std::cout<< std::endl;
+    reg.punto1();
+    std::cout<< std::endl;
+    reg.punto2();
+
+   //listar_estudiantes();
     //listar_examenes();
     std::cout<< std::endl;
 
